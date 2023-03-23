@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.header-inner{
+    width: 100%;
+    max-width: 1000px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-border a{
+    text-decoration: none;
+    color: #292A45;
+    font-size: 14px;
+}
+
+.header-border a:hover {
+    color: rgb(37, 37, 37);
+    border-bottom: 2px solid #292A45;
+    transition: 0.1s;
+}
+
+.header-inner-reg a{
+    text-decoration: none;
+    background: #00A3FF;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 24px;
+    color: white;
+    font-size: 12px;
+}
+
+.header-inner-reg a:hover {
+    transition: 0.6s;
+    background: #0f96e3;
+    color: white;
+}
+
+.search input {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #3F80FF;
+    border-radius: 10px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.logo input{
+    width: 100px;
+}
+
+.lang {
+    margin-bottom: 4%;
+}
+
+body {
+    font-family: 'Golos Text', sans-serif;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    max-width: 1440px;
+    width: 100%;
+}
+
+.main-container-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1400px;
+    line-height: 120px;
+    border: 1px solid black;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 400px;
+}
+
+.main-container-name img{
+    width: 50px;
+}
+
+.txt-bold div{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.main-container a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    margin-left: 15%;
+}
+
+.main-container a:hover {
+    color: #4d4f8f;
+}
+
+
+
+
+
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    gap: 10px;
+}
+.comments-name input{
+    padding: 10px;
+    padding-right: 70px;
+    width: 300px;
+}
+
+.comments-request input {
+    padding: 10px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.comments-seand input {
+    padding-top: 10px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    width: 300px;
+}
