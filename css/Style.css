@@ -413,6 +413,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 70px;
 }
 
 .main-container-block {
@@ -463,4 +464,13 @@ body {
     background: #225dd4;
     color: white;
     transition: 0.4s;
+}
+
+.main-forum {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-left: 6%;
+    margin-right: 20%;
+    margin-bottom: 30px;
 }
