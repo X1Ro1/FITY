@@ -342,8 +342,8 @@ body {
   border: solid 1px #003298;
   transform-origin: top left;
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  -webkit-animation: cube 9s ease-in forwards infinite;
-          animation: cube 9s ease-in forwards infinite;
+  -webkit-animation: cube 11s ease-in forwards infinite;
+          animation: cube 11s ease-in forwards infinite;
 }
 .cube:nth-child(2n) {
   border-color: #0051f4;
@@ -424,7 +424,11 @@ body {
 }
 
 .main-container-block img{
-    width: 350px;
+    width: 400px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-container-block-1-h1 div {
@@ -435,4 +439,28 @@ body {
 .main-container-block-1-p div {
     font-size: 14px;
     width: 150px;
+}
+
+
+.main-container-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.main-container-button a{
+    background: #3F80FF;
+    color: white;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 24px;
+    text-decoration: none;
+}
+
+.main-container-button a:hover{
+    background: #225dd4;
+    color: white;
+    transition: 0.4s;
 }
