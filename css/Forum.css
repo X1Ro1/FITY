@@ -84,6 +84,10 @@ body {
 
 
 
+.main-line {
+    border-bottom: 2px solid black;
+    width: 900px;
+}
 
 
 .main {
@@ -100,8 +104,9 @@ body {
 
 .main-container-name  {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
     width: 100%;
     max-width: 1400px;
@@ -110,6 +115,7 @@ body {
     padding-left: 160px;
     padding-right: 160px;
     padding-bottom: 400px;
+    overflow-y: scroll;
 }
 
 .main-container-name-text {
@@ -120,20 +126,14 @@ body {
     font-size: 14px;
 }
 
-.main-container-name {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-}
-
 
 
 .main-container-name img{
     width: 50px;
 }
 
-.txt-bold div{
-    font-size: 20px;
-    font-weight: bolder;
+.txt{
+    font-size: 15px;
 }
 
 .main-container a{
@@ -177,10 +177,34 @@ body {
     padding-right: 70px;
     padding-bottom: 10px;
     width: 300px;
+    margin-bottom: 100px;
 }
 
 
 
+.comment {
+    display: grid;
+    grid-template-columns: 0.2fr 1.8fr;
+}
+
+.comment-text-name {
+    display: flex;
+    justify-content: space-between;
+    max-width: 150px;
+}
+
+.comment-text-name-name {
+    font-weight: bold;
+}
+
+.comment-text-name-time {
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.comment-text-txt {
+    max-width: 600px;
+}
 
 
 
@@ -246,4 +270,53 @@ body {
 
 .footer-icon img{
     margin-top: 8px;
+}
+
+
+
+
+
+.main-events {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 50px;
+    margin-bottom: 40px;
+    border-radius: 24px;
+}
+
+.main-events-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: start;
+}
+
+.main-events-txt-p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.main-events-txt-p a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    background: #2f71f5;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor:pointer;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.main-events-txt-p a:hover {
+    color: white;
+    background: #003EB7;
+    transition: 0.3s;
 }
