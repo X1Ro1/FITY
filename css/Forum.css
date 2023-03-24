@@ -14,7 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .header-inner{
@@ -61,17 +61,6 @@ body {
     color: rgb(75, 68, 172);
 }
 
-
-.search input {
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 2px solid #3F80FF;
-    border-radius: 10px;
-    width: 350px;
-    border-radius: 20px;
-}
-
 .logo input{
     width: 100px;
 }
@@ -79,6 +68,10 @@ body {
 .lang {
     margin-bottom: 4%;
 }
+
+
+
+
 
 
 
@@ -220,7 +213,7 @@ body {
 
 .footer-container {
     width: 100%;
-    max-width: 1920px;
+    max-width: 1600px;
     background: #003EB7;
     padding-left: 300px;
     padding-right: 100px;
@@ -276,6 +269,8 @@ body {
 
 
 
+
+
 .main-events {
     display: flex;
     flex-direction: column;
@@ -301,21 +296,23 @@ body {
     gap: 10px;
 }
 
-.main-events-txt-p a{
+.main-event-btn a{
     text-decoration: none;
     color: #ffffff;
     font-size: 13px;
     font-weight: 500;
-    background: #2f71f5;
+    border: 2px solid #003298;
+    color: #003298;
     border-radius: 20px;
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
     cursor:pointer;
     font-family: 'Golos Text', sans-serif;
+    margin-left: 80%;
 }
 
-.main-events-txt-p a:hover {
+.main-event-btn a:hover {
     color: white;
     background: #003EB7;
     transition: 0.3s;
